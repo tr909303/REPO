@@ -59,6 +59,7 @@ header nav ul li a {
 /* Main */
 main {
     padding: 1em;
+	
 }
 
 /* Main sections */
@@ -86,4 +87,16 @@ footer {
 
 #about h2 {
     font-family: 'Pixeled', Arial, sans-serif;
+}
+
+.artist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artist-container img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
 }
