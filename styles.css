@@ -1,5 +1,5 @@
+/* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Pixeled&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* Global styles */
@@ -14,12 +14,12 @@ body {
 
 /* Links */
 a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 a:hover {
-  color: green;
+    color: green;
 }
 
 /* Header */
@@ -59,7 +59,6 @@ header nav ul li a {
 /* Main */
 main {
     padding: 1em;
-	
 }
 
 /* Main sections */
@@ -89,24 +88,21 @@ footer {
     font-family: 'Pixeled', Arial, sans-serif;
 }
 
+/* Artists */
 .artist-container {
-    display: inline-block;
+    display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 10px;
 }
 
-ul {
-    text-align: center;
-}
-
-  .artist-container img {
+.artist-container img {
     width: 200px;
     height: 200px;
-  }
+}
 
-  .artist-container p {
-    margin-top: 10px;
+.artist-container p {
     text-align: center;
-    width: 200px;
-  }
+}
