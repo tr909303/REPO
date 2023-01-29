@@ -90,13 +90,23 @@ footer {
 }
 
 .artist-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.artist-container img {
-  width: 200px;
-  height: 200px;
-  margin-bottom: 10px;
+ul {
+    text-align: center;
 }
+
+  .artist-container img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .artist-container p {
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+  }
